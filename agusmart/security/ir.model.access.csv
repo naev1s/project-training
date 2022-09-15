@@ -1,0 +1,10 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_agusmart_kelompokbarang,access.agusmart.kelompokbarang,model_agusmart_kelompokbarang,,1,1,1,1
+access_agusmart_barang,access.agusmart.barang,model_agusmart_barang,,1,1,1,1
+access_agusmart_person,access.agusmart.person,model_agusmart_person,,1,1,1,1
+access_agusmart_kasir,access.agusmart.kasir,model_agusmart_kasir,,1,1,1,1
+access_agusmart_cleaningservice,access.agusmart.cleaningservice,model_agusmart_cleaningservice,,1,1,1,1
+access_agusmart_supplier,access.agusmart.supplier,model_agusmart_supplier,,1,1,1,1
+access_agusmart_penjualan,access.agusmart.penjualan,model_agusmart_penjualan,,1,1,1,1
+access_agusmart_detailpenjualan,access.agusmart.detailpenjualan,model_agusmart_detailpenjualan,,1,1,1,1
+access_agusmart_barangdatang,access.agusmart.barangdatang,model_agusmart_barangdatang,,1,1,1,1

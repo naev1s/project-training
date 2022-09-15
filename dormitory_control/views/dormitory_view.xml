@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="dormitory_control_dormitory_view_tree" model="ir.ui.view">
+        <field name="name">dormitory_control.dormitory.view.tree</field>
+        <field name="model">dormitory_control.dormitory</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="initial"/>
+                <field name="total_rooms" />
+                <field name="unused_rooms" />
+                <field name="used_rooms" />
+            </tree>
+        </field>
+    </record>
+
+    <record id="dormitory_control_dormitory" model="ir.ui.view">
+        <field name="name">dormitory_control.dormitory.view.form</field>
+        <field name="model">dormitory_control.dormitory</field>
+        <field name="arch" type="xml">
+            <form string="Asrama">
+                <sheet>
+                    <group name="Asrama" string="Asrama">
+                        <field name="name"/>
+                        <field name="initial"/>
+                        <field name="occupants_gender" />
+                        <field name="total_rooms" />
+                    </group>
+
+                    <group name="Kamar" string="Daftar Kamar">
+                        <field name="room_ids" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="dormitory_control_dormitory_action" model="ir.actions.act_window">
+        <field name="name">Asrama</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">dormitory_control.dormitory</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem
+        id="dormitory_control_dormitory_menu_act"
+        name="Asrama"
+        parent="dormitory_control_room_menu_categ"
+        action="dormitory_control_dormitory_action"
+        sequence="10"/>
+
+</odoo>

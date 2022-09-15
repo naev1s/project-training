@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem
+        id="agusmart_menu_root"
+        name="Agus Mart"
+        sequence="10"/>
+
+    <menuitem
+        id="agusmart_barang_menu_categ"
+        name="Barang"
+        parent="agusmart_menu_root"
+        sequence="10"/>
+
+    <menuitem
+        id="agusmart_pegawai_menu_categ"
+        name="Pegawai"
+        parent="agusmart_menu_root"
+        sequence="20"/>
+
+    <menuitem
+	  id="agusmart_transaksi_menu_categ"
+	  name="Transaksi"
+	  parent="agusmart_menu_root"
+	  sequence="42"/>
+
+</odoo>

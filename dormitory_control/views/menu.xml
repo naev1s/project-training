@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem
+        id="dormitory_control_menu_root"
+        name="Dormitory Control"
+        sequence="10"/>
+
+    <menuitem
+        id="dormitory_control_room_menu_categ"
+        name="Asrama"
+        parent="dormitory_control_menu_root"
+        sequence="10"/>
+
+    <menuitem
+        id="dormitory_control_occupant_menu_categ"
+        name="Penghuni"
+        parent="dormitory_control_menu_root"
+        sequence="10"/>
+    
+    <menuitem
+        id="dormitory_control_employee_menu_categ"
+        name="Pekerja"
+        parent="dormitory_control_menu_root"
+        sequence="10"/>
+
+    <menuitem
+        id="dormitory_control_staff_menu_categ"
+        name="Pengurus"
+        parent="dormitory_control_menu_root"
+        sequence="10"/>
+
+</odoo>

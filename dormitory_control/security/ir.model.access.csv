@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_dormitory_control_dormitory,access.dormitory_control.dormitory,model_dormitory_control_dormitory,,1,1,1,1
+access_dormitory_control_room,access.dormitory_control.room,model_dormitory_control_room,,1,1,1,1
+access_dormitory_control_occupant,access.dormitory_control.occupant,model_dormitory_control_occupant,,1,1,1,1
